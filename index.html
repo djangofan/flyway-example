@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>flyway-example by djangofan</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>flyway-example</h1>
+        <p>Example of using FlyWay with Maven.</p>
+        <p class="view"><a href="https://github.com/djangofan/flyway-example">View the Project on GitHub <small>djangofan/flyway-example</small></a></p>
+        <ul>
+          <li><a href="https://github.com/djangofan/flyway-example/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/djangofan/flyway-example/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/djangofan/flyway-example">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+<a name="flyway-example" class="anchor" href="#flyway-example"><span class="octicon octicon-link"></span></a>flyway-example</h2>
+
+<p>This project was created using IntelliJ IDEA 13.1 .  Will also work with Eclipse.</p>
+
+<p><a href="http://flywaydb.org/documentation/">http://flywaydb.org/documentation/</a></p>
+
+<h2>
+<a name="execution-steps" class="anchor" href="#execution-steps"><span class="octicon octicon-link"></span></a>execution-steps</h2>
+
+<ol>
+<li>Install PostgreSQL with default options, and root password "monster1234".</li>
+<li>Create new admin superuser in Postgres named "monster" with password "monster1234"</li>
+<li>Create new database called "flyway" with owner being the user "monster".</li>
+<li>Open this project with IntellijIDEA or Eclipse.</li>
+<li>Run project with Maven goal <code>compile flyway:clean flyway:migrate flyway:info</code>
+</li>
+</ol><h2>
+<a name="other-maven-goals" class="anchor" href="#other-maven-goals"><span class="octicon octicon-link"></span></a>other maven goals</h2>
+
+<p>migrate, clean, info, validate, init, repair</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/djangofan">djangofan</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
