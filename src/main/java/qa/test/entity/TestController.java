@@ -1,7 +1,7 @@
-package de.javamonster.blog.controller;
+package qa.test.entity;
 
-import de.javamonster.blog.entity.News;
-import de.javamonster.blog.persistence.EntityDao;
+import qa.test.entity.News;
+import qa.test.entity.persistence.EntityDao;
 
 import javax.enterprise.context.RequestScoped;
 import javax.enterprise.inject.Produces;

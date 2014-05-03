@@ -1,4 +1,4 @@
-package de.javamonster.blog.persistence;
+package qa.test.entity.persistence;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.ElementType;

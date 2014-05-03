@@ -1,4 +1,4 @@
-package de.javamonster.blog.entity;
+package qa.test.entity;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;

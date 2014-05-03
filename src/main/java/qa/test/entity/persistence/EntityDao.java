@@ -1,4 +1,4 @@
-package de.javamonster.blog.persistence;
+package qa.test.entity.persistence;
 
 import javax.inject.Inject;
 import javax.persistence.EntityManager;

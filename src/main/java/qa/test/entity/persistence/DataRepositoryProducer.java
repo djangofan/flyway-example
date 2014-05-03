@@ -1,4 +1,4 @@
-package de.javamonster.blog.persistence;
+package qa.test.entity.persistence;
 
 import javax.ejb.Stateless;
 import javax.enterprise.inject.Produces;
