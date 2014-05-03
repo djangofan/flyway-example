@@ -1,3 +1,3 @@
 -- sample entry
 
-UPDATE news SET email = 'info@javamonster.de' WHERE id = 1;
+UPDATE news SET email = 'djangofan@random.who' WHERE id = 1;
