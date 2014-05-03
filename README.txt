@@ -10,7 +10,7 @@ execution-steps
 2. Create new admin superuser in Postgres named "monster" with password "monster1234"
 3. Create new database called "flyway" with owner being the user "monster".
 4. Open this project with IntellijIDEA or Eclipse.
-5. Run project with Maven goal `compile flyway:migrate`
+5. Run project with Maven goal ```compile flyway:migrate```
 
 
 
